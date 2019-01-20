@@ -4,9 +4,9 @@ $(document).ready(function(){
 
     $('.js--section-features').waypoint(function(direction){
         if(direction === "down"){
-            $('nav').addClass('sticky');
+            $('nav').addClass('sticky animated fadeInDown');
         } else{
-            $('nav').removeClass('sticky');
+            $('nav').removeClass('sticky animated fadeOutUp');
         }
     }, {
         offset: '60px'
@@ -60,6 +60,11 @@ $(document).ready(function(){
 
     $('.js--wp-plan').waypoint(function(direction){
         $('.js--wp-plan').addClass('animated pulse');
+    }, {
+        offset: '65%'});
+
+    $('.js--wp-phone').waypoint(function(direction){
+        $('.js--wp-phone').addClass('animated fadeInUp');
     }, {
         offset: '65%'});
 

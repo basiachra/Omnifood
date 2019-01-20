@@ -613,13 +613,15 @@ footer p{
 
 .js--wp-features,
 .js--wp-city,
-.js--wp-phone{
+.js--wp-phone,
+.sticky{
     opacity: 0;
     animation-duration: 1s;
 }
 
 .js--wp-features.animated,
 .js--wp-city.animated,
+.sticky.animated,
 .js--wp-phone.animated{
     opacity: 1;
 }
