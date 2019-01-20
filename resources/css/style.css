@@ -11,12 +11,13 @@
 }
 
 
-html{
+html,body{
     color: #555555;
     font-family: 'Lato', 'Arial', sans-serif;
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 .clearfix {zoom: 1;}
@@ -120,7 +121,7 @@ ul {
     font-size:120%;
 
     /*sposób 1 na alogn  text z iconami*/
-    line-hight: 120%;
+    line-height: 120%;
     vertical-align: middle;
     margin-top: -4px;
     padding-right: 10px;
@@ -240,7 +241,7 @@ header{
     font-size: 90%;
     border-bottom: 2px solid transparent;
     transition: border-bottom-color 0.5s;
-    padding: 8px 0px;
+    padding: 8px 0;
 }
 
 .main-nav li a:hover,
@@ -454,7 +455,7 @@ cite img{
     list-style: none;
 }
 
-.plan-boc ul li{
+.plan-box ul li{
     padding: 5px 0;
 }
 

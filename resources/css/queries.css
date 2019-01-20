@@ -1,0 +1,148 @@
+
+/*-------------BIG TABLETS---------------*/
+@media only screen and (max-width: 1200px){
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    .logo { height:100px; }
+
+    .row { padding: 0 2%; }
+
+}
+
+/*-------TABLETS PORTRET MODE-------------*/
+@media only screen and (max-width: 1023px){
+    .logo { height:80px; }
+    body {font-size: 18px}
+    section { padding: 60px 0;}
+
+    .long-copy{
+        width: 80%;
+        margin-left:10%;
+    }
+
+    .steps-box{ margin-top: 30px; }
+    .steps-box:last-child{ margin-top: 30px; }
+    .work-step{ margin-bottom: 40px; }
+    .work-step:last-of-type{margin-bottom:60px;}
+    .app-screen{ width: 50%;}
+    .icon-small{ width: 20px;}
+    .city-feature{font-size: 85%;}
+
+    .plan-box{
+        width: 100%;
+        margin-left: 0;
+    }
+    .plan-price{font-size: 250%;}
+    .contact-form{width:80%;}
+}
+
+/*------MEDIUM PHONES SMALL TABLETS-------*/
+@media only screen and (max-width: 767px){
+
+    .logo { height:50px;}
+    body{font-size: 16px;}
+    section{ padding: 30px 0;}
+
+    h1{
+        margin-top: 15px;
+        font-size: 220%;}
+
+    h2 {font-size: 150%;}
+
+    .btn:link,
+    .btn:visited,
+    input[type=submit]{
+        font-size: 85%;
+        margin-top: 15px;
+    }
+
+    .main-nav{display:none;}
+    .row,
+    .hero-text-box { padding: 0 4%; }
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;}
+
+
+    .icon-big{
+        font-size: 280%;
+    }
+    .section-features{ text-align: center;}
+    .section-features p{
+        margin-left:5%;
+        width: 90%;}
+
+
+    .meals-showcase li{
+        display: inline-block;
+        width:50%;
+    }
+
+    .app-screen{width:30%; }
+
+    .work-step div{
+        border: 1px solid #e67e22;
+        height:35px;
+        width:35px;
+        padding: 3px;
+        margin-right: 15px;
+        font-size: 140%;
+        float:left;
+        vertical-align: middle;
+    }
+
+    .steps-box:first-child{ text-align: center; }
+    .steps-box:last-child{ text-align: center; }
+    .work-step{
+        margin-bottom: 30px;
+        text-align: left;
+        vertical-align: middle;}
+    .work-step:last-of-type{margin-bottom:40px;}
+
+    .section-cities h3{font-size: 110%;}
+    .icon-small{ width: 36px;}
+    .city-feature{font-size: 100%;}
+
+
+    .plan-box{ text-align: center;}
+    .plan-box ul{ text-align: left; }
+    .plan-price{font-size: 300%;}
+    .plan-price-meal{font-size:90%;}
+
+    .labels {
+        text-align: center;
+        padding:10px 0 15px 0;
+        margin:0;
+    }
+
+}
+
+/*--------------SMALL PHONES---------------*/
+@media only screen and (max-width: 480px){
+
+    section{
+        padding:25px 0;
+    }
+    h1{
+        margin-top: 35px;
+        margin-bottom: -3px;
+        font-size: 200%;
+        }
+
+    body{ font-size: 14px;}
+    .app-screen{width:35%; }
+
+    .icon-big{
+        font-size: 250%;
+    }
+
+    .meals-showcase li{
+        display: inline-block;
+        width:50%;
+    }
+    .contact-form{width:100%;}
+
+}
+
