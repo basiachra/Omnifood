@@ -73,7 +73,10 @@
         font-size: 100%;
     }
 
-    .mobile-nav-icon{display:inline-block;}
+    .mobile-nav-icon{
+        display:inline-block;
+        margin-top: 12px;
+    }
 
     .sticky .main-nav{
         margin-top: 10px;
@@ -86,7 +89,6 @@
 
     .sticky .mobile-nav-icon i{
         color: #555;
-        margin-top: -15px;
     }
 
     .row,
